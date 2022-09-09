@@ -1,0 +1,1196 @@
+body
+{
+   background-color: #DCDCDC;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+input:focus, textarea:focus, select:focus
+{
+   outline: none;
+}
+#task_zone
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#user_zone
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
+#tarea
+{
+   width: 709px;
+   height: 70px;
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 0px #0963AD solid;
+   box-shadow: 5px 5px 5px rgba(0,0,0,0.78);
+}
+
+.tarea_class
+{
+   width: 709px;
+   height: 70px;
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 0px #0963AD solid;
+   box-shadow: 5px 5px 5px rgba(0,0,0,0.78);
+}
+
+
+#tarea_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    left: 0.14%;
+   top: 1.43%;
+   width: 99.72%;
+   height: 97.14%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: center;
+   word-wrap: break-word;
+}
+#Shape1
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#add_task
+{
+   width: 709px;
+   height: 70px;
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 0px #0963AD solid;
+}
+#add_task_text
+{
+   position: absolute;
+   pointer-events: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    left: 0.14%;
+   top: 1.43%;
+   width: 99.72%;
+   height: 97.14%;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: center;
+   word-wrap: break-word;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text2 div
+{
+   text-align: left;
+}
+#wb_IconFont1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#IconFont1
+{
+   height: 44px;
+   width: 49px;
+}
+#IconFont1 i
+{
+   color: #000000;
+   display: inline-block;
+   font-size: 44px;
+   line-height: 44px;
+   vertical-align: middle;
+   width: 43px;
+}
+#IconFont1:hover i
+{
+   color: #4F4F4F;
+}
+#wb_Checkbox1
+{
+   margin: 0;
+}
+
+.wb_Checkbox1_class
+{
+   margin: 0;
+}
+
+#wb_Checkbox1, #wb_Checkbox1 *, #wb_Checkbox1 *::before, #wb_Checkbox1 *::after
+{
+   box-sizing: border-box;
+}
+#wb_Checkbox1 input[type='checkbox']
+{
+   position: absolute;
+   padding: 0;
+   margin: 0;
+   opacity: 0;
+   z-index: 1;
+   width: 20px;
+   height: 20px;
+   left: 0;
+   top: 0;
+}
+
+.wb_Checkbox1_class_input input[type='checkbox']
+{
+   position: absolute;
+   padding: 0;
+   margin: 0;
+   opacity: 0;
+   z-index: 1;
+   width: 20px;
+   height: 20px;
+   left: 0;
+   top: 0;
+
+}
+#wb_Checkbox1 label
+{
+   display: inline-block;
+   vertical-align: middle;
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 0;
+   height: 0;
+   padding: 0;
+}
+#wb_Checkbox1 label::before
+{
+   content: "";
+   display: inline-block;
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   left: 0;
+   top: 0;
+   background-color: #FFFFFF;
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+}
+#wb_Checkbox1 label::after
+{
+   display: inline-block;
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   left: 0;
+   top: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 20px;
+}
+#wb_Checkbox1 input[type='checkbox']:checked + label::after
+{
+   content: " ";
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23FFFFFF%22%20viewBox%3d%220%200%2080%2080%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M74%2021%20C75%2022%2c%2075%2023%2c%2075%2024%20C75%2025%2c%2075%2026%2c%2074%2027%20L41%2060%20L35%2066%20C34%2067%2c%2033%2067%2c%2032%2067%20C31%2067%2c%2030%2067%2c%2029%2066%20L23%2060%20L7%2043%20C6%2043%2c%206%2042%2c%206%2040%20C6%2039%2c%206%2038%2c%207%2037%20L13%2031%20C14%2030%2c%2015%2030%2c%2016%2030%20C17%2030%2c%2018%2030%2c%2019%2031%20L32%2044%20L62%2015%20C62%2014%2c%2063%2014%2c%2065%2014%20C66%2014%2c%2067%2014%2c%2068%2015%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+   background-size: 80% 80%
+}
+#wb_Checkbox1 input[type='checkbox']:checked + label::before
+{
+   background-color: #4F4F4F;
+   background-image: none;
+   border-color: #4F4F4F;
+}
+#wb_Checkbox1 input[type='checkbox']:focus + label::before
+{
+   outline: thin dotted;
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text3 div
+{
+   text-align: left;
+}
+
+.wb_Text3_class
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text3_class div
+{
+   text-align: left;
+}
+
+
+#wb_task_type_icon
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+
+.wb_task_type_icon_class
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+
+#task_type_icon
+{
+   height: 15px;
+   width: 15px;
+}
+
+.task_type_icon_class
+{
+   height: 15px;
+   width: 15px;
+}
+
+#task_type_icon i
+{
+   color: #4F4F4F;
+   display: inline-block;
+   font-size: 15px;
+   line-height: 15px;
+   vertical-align: middle;
+   width: 14px;
+}
+#task_type_icon:hover i
+{
+   color: #4F4F4F;
+}
+#wb_Text4 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text4 div
+{
+   text-align: left;
+}
+#Shape2
+{
+   width: 65px;
+   height: 39px;
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 0px #0963AD solid;
+}
+#wb_IconFont2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#IconFont2
+{
+   height: 22px;
+   width: 29px;
+}
+#IconFont2 i
+{
+   color: #000000;
+   display: inline-block;
+   font-size: 22px;
+   line-height: 22px;
+   vertical-align: middle;
+   width: 22px;
+}
+#IconFont2:hover i
+{
+   color: #000000;
+}
+#wb_Text5 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text5 div
+{
+   text-align: left;
+}
+#Shape3
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_Image1
+{
+   vertical-align: top;
+}
+#Image1
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text6 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text6 div
+{
+   text-align: left;
+}
+#wb_Text7 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text7 div
+{
+   text-align: left;
+}
+#global_search
+{
+   border: 1px solid #CCCCCC;
+   border-radius: 6px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   line-height: 16px;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+   text-align: left;
+}
+#global_search:focus
+{
+   border-color: #4F4F4F;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
+   outline: 0;
+}
+#wb_IconFont3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#IconFont3
+{
+   height: 20px;
+   width: 20px;
+}
+#IconFont3 i
+{
+   color: #4F4F4F;
+   display: inline-block;
+   font-size: 20px;
+   line-height: 20px;
+   vertical-align: middle;
+   width: 19px;
+}
+#IconFont3:hover i
+{
+   color: #000000;
+}
+#wb_IconFont4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#IconFont4
+{
+   height: 28px;
+   width: 30px;
+}
+#IconFont4 i
+{
+   color: #4F4F4F;
+   display: inline-block;
+   font-size: 28px;
+   line-height: 28px;
+   vertical-align: middle;
+   width: 27px;
+}
+#IconFont4:hover i
+{
+   color: #4F4F4F;
+}
+#wb_Text8 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text8 div
+{
+   text-align: left;
+}
+#wb_IconFont5
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#IconFont5
+{
+   height: 28px;
+   width: 30px;
+}
+#IconFont5 i
+{
+   color: #4F4F4F;
+   display: inline-block;
+   font-size: 28px;
+   line-height: 28px;
+   vertical-align: middle;
+   width: 27px;
+}
+#IconFont5:hover i
+{
+   color: #4F4F4F;
+}
+#wb_Text9 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text9 div
+{
+   text-align: left;
+}
+#wb_IconFont6
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#IconFont6
+{
+   height: 28px;
+   width: 30px;
+}
+#IconFont6 i
+{
+   color: #4F4F4F;
+   display: inline-block;
+   font-size: 28px;
+   line-height: 28px;
+   vertical-align: middle;
+   width: 27px;
+}
+#IconFont6:hover i
+{
+   color: #4F4F4F;
+}
+#wb_Text10 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text10 div
+{
+   text-align: left;
+}
+#wb_IconFont7
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#IconFont7
+{
+   height: 28px;
+   width: 30px;
+}
+#IconFont7 i
+{
+   color: #4F4F4F;
+   display: inline-block;
+   font-size: 28px;
+   line-height: 28px;
+   vertical-align: middle;
+   width: 27px;
+}
+#IconFont7:hover i
+{
+   color: #4F4F4F;
+}
+#wb_Text11 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text11 div
+{
+   text-align: left;
+}
+#wb_IconFont8
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#IconFont8
+{
+   height: 28px;
+   width: 30px;
+}
+#IconFont8 i
+{
+   color: #4F4F4F;
+   display: inline-block;
+   font-size: 28px;
+   line-height: 28px;
+   vertical-align: middle;
+   width: 27px;
+}
+#IconFont8:hover i
+{
+   color: #4F4F4F;
+}
+#wb_Text12 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text12 div
+{
+   text-align: left;
+}
+#wb_IconFont9
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#IconFont9
+{
+   height: 28px;
+   width: 30px;
+}
+#IconFont9 i
+{
+   color: #4F4F4F;
+   display: inline-block;
+   font-size: 28px;
+   line-height: 28px;
+   vertical-align: middle;
+   width: 27px;
+}
+#IconFont9:hover i
+{
+   color: #4F4F4F;
+}
+#wb_Text13 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text13 div
+{
+   text-align: left;
+}
+#Shape4
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_IconFont10
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#IconFont10
+{
+   height: 40px;
+   width: 40px;
+}
+#IconFont10 i
+{
+   color: #4F4F4F;
+   display: inline-block;
+   font-size: 40px;
+   line-height: 40px;
+   vertical-align: middle;
+   width: 39px;
+}
+#IconFont10:hover i
+{
+   color: #696969;
+}
+#wb_Text14 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text14 div
+{
+   text-align: left;
+}
+#wb_Text15 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text15 div
+{
+   text-align: left;
+}
+#wb_Text16 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text16 div
+{
+   text-align: left;
+}
+#wb_IconFont11
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#IconFont11
+{
+   height: 25px;
+   width: 25px;
+}
+#IconFont11 i
+{
+   color: #4169E1;
+   display: inline-block;
+   font-size: 25px;
+   line-height: 25px;
+   vertical-align: middle;
+   width: 24px;
+}
+#IconFont11:hover i
+{
+   color: #4169E1;
+}
+#wb_IconFont12
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#IconFont12
+{
+   height: 34px;
+   width: 30px;
+}
+#IconFont12 i
+{
+   color: #DAA520;
+   display: inline-block;
+   font-size: 30px;
+   line-height: 34px;
+   vertical-align: middle;
+   width: 29px;
+}
+#IconFont12:hover i
+{
+   color: #DAA520;
+}
+#wb_IconFont13
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#IconFont13
+{
+   height: 24px;
+   width: 20px;
+}
+#IconFont13 i
+{
+   color: #4F4F4F;
+   display: inline-block;
+   font-size: 20px;
+   line-height: 24px;
+   vertical-align: middle;
+   width: 19px;
+}
+#IconFont13:hover i
+{
+   color: #4F4F4F;
+}
+#wb_Text17 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text17 div
+{
+   text-align: left;
+}
+#wb_IconFont14
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#IconFont14
+{
+   height: 24px;
+   width: 20px;
+}
+#IconFont14 i
+{
+   color: #4F4F4F;
+   display: inline-block;
+   font-size: 20px;
+   line-height: 24px;
+   vertical-align: middle;
+   width: 19px;
+}
+#IconFont14:hover i
+{
+   color: #4F4F4F;
+}
+#wb_Text18 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text18 div
+{
+   text-align: left;
+}
+#wb_IconFont15
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#IconFont15
+{
+   height: 24px;
+   width: 20px;
+}
+#IconFont15 i
+{
+   color: #4F4F4F;
+   display: inline-block;
+   font-size: 20px;
+   line-height: 24px;
+   vertical-align: middle;
+   width: 19px;
+}
+#IconFont15:hover i
+{
+   color: #4F4F4F;
+}
+#wb_Text19 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text19 div
+{
+   text-align: left;
+}
+#wb_IconFont16
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#IconFont16
+{
+   height: 24px;
+   width: 20px;
+}
+#IconFont16 i
+{
+   color: #4F4F4F;
+   display: inline-block;
+   font-size: 20px;
+   line-height: 24px;
+   vertical-align: middle;
+   width: 19px;
+}
+#IconFont16:hover i
+{
+   color: #4F4F4F;
+}
+#wb_Text20 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text20 div
+{
+   text-align: left;
+}
+#wb_IconFont17
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#IconFont17
+{
+   height: 24px;
+   width: 20px;
+}
+#IconFont17 i
+{
+   color: #4F4F4F;
+   display: inline-block;
+   font-size: 20px;
+   line-height: 24px;
+   vertical-align: middle;
+   width: 21px;
+}
+#IconFont17:hover i
+{
+   color: #4F4F4F;
+}
+#wb_Text21 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text21 div
+{
+   text-align: left;
+}
+#wb_IconFont18
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#IconFont18
+{
+   height: 24px;
+   width: 20px;
+}
+#IconFont18 i
+{
+   color: #4F4F4F;
+   display: inline-block;
+   font-size: 20px;
+   line-height: 24px;
+   vertical-align: middle;
+   width: 19px;
+}
+#IconFont18:hover i
+{
+   color: #4F4F4F;
+}
+#wb_Text22 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text22 div
+{
+   text-align: left;
+}
+#wb_Text23 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text23 div
+{
+   text-align: left;
+}
+#wb_Text24 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text24 div
+{
+   text-align: left;
+}
+#wb_Text25 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text25 div
+{
+   text-align: left;
+}
