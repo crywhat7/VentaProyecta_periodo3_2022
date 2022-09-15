@@ -1,16 +1,21 @@
-<%@page import="dependencies.Database" %>
-<%@page import="dependencies.Usuario" %>
+<%@page import="src.dependencies.Database" %>
+<%@page import="src.dependencies.Usuario" %>
 <%@ page import="java.io.EOFException" %>
 <%
     Usuario usuario = null;    
-    Database db = new Database(application.getRealPath("../mini_office.accdb"));
+    Database db = new Database(application.getRealPath("source/mini_office.mdb"));
     db.conectar();    
 
-    Usuario usuario = new Usuario(0, 
+    usuario = new Usuario(0,
     request.getParameter("usuario").toString(),
     request.getParameter("clave").toString(),
     request.getParameter("correo").toString());
             
     db.crearUsuario(usuario);
-    response.sendRedirect("");
+    %>
+    <script>
+        alert("Proceso completado!")
+    </script>
+<%
+    response.sendRedirect("login.jsp");
 %>
