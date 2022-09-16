@@ -53,3 +53,9 @@ body {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+
+.enviar-btn:hover {
+  cursor: pointer;
+  background-color: #095eb3;
+  transition: ease-out .2s;
+}
