@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/outlook.css" />
+    <title>Outlook</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/ef2430d1e3.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="app">
+    <div class="nav">Outlook</div>
+  </body>
+  <div class="alll">
+    <div class="panel">
+      <input class="new-message-button" type="button" value="Mensaje Nuevo" />
+      <span class="acciones">
+        <span class="input">
+          <i class="fa-solid fa-inbox"></i>
+          <label>Bandeja de Entrada</label>
+        </span>
+        <span class="input">
+          <i class="fa-solid fa-file-pen"></i>
+          <label>Borradores</label>
+        </span>
+        <span class="input">
+          <i class="fa-solid fa-trash"></i>
+          <label>Papelera</label>
+        </span>
+      </span>
+    </div>
+    <div class="central-panel">
+      <input type="button" class="delete-btn" value="Eliminar" />
+      <span class="tabla-correos">
+        <table>
+          <tr>
+            <div class="card-correo">
+              <span class="left">
+                <input type="checkbox" name="Correo" id="id_correo" />
+              </span>
+              <span class="datos">
+                <label><b>Remitente:</b> Marcos</label>
+                <label><b>Sujeto:</b> Busque quien lo pise</label>
+                <label class="contenido">Respete pa que lo respeten, busque de dios y la juventud eterna</label>
+              </span>
+            </div>
+          </tr>
+          <tr>
+            <div class="card-correo">
+              <span class="left">
+                <input type="checkbox" name="Correo" id="id_correo" />
+              </span>
+              <span class="datos">
+                <label><b>Remitente:</b> Juan</label>
+                <label><b>Sujeto:</b> Enviar documento</label>
+                <label class="contenido">
+                  Enviame el documento vos mal parido llevo 32 meses pidiendotelo hijuelagranpucta
+                </label>
+              </span>
+            </div>
+          </tr>
+        </table>
+      </span>
+    </div>
+    <div class="right-panel">
+      <label> Hola amorsh </label>
+      <label>Amorsh</label>
+      <div class="text-area">
+        <textarea name="correo-contenido" readonly>
+          Que tal tu día amorsh, contame, que tal como estas quería decirte que pex como te encontrabas mi armochito Josecito, jose
+        </textarea>
+      </div>
+    </div>
+  </div>
+</html>
