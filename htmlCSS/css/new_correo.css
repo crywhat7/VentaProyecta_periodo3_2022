@@ -1,0 +1,55 @@
+body {
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+}
+
+.new-email {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #1e90ff;
+  padding: .5rem;
+  width: 40vw;
+  height: 70vh;
+  color: white;
+  flex-direction: column;
+  border-radius: 1rem;
+}
+
+.ingresar-texto {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.input-text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.input-text input {
+  border-radius: 1rem;
+  border: 0px;  
+}
+
+.contenido {
+  width: 80%;
+  height: 40%;
+  border-radius: .5rem;
+  border: 0px;
+}
+
+.enviar-btn {
+  border: 0px;
+  padding: .5rem;
+  border-radius: 1rem;
+  width: 10rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}

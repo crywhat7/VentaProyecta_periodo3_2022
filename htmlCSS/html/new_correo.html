@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/ef2430d1e3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../css/new_correo.css" />
+    <title>Nuevo correo</title>
+  </head>
+  <body>
+    <form action="" method="post">
+      <div class="new-email">        
+        <h2> <i class="fa-solid fa-envelope"></i> Nuevo Correo</h2>
+        <span class="ingresar-texto">
+          <span class="input-text">
+            <label for="destinatario">Destinatario: </label>
+            <input
+              placeholder="Ingrese el correo"
+              type="text"
+              id="destinatario"
+              name="destinatario"
+            />
+          </span>
+          <span class="input-text">
+            <label for="sujeto">Sujeto: </label>
+            <input
+              placeholder="Ingrese el sujeto"
+              type="text"
+              id="sujeto"
+              name="sujeto"
+            />
+          </span>
+        </span>
+        <br />
+        <h3>Contenido</h3>
+        <input
+          class="contenido"          
+          type="text"
+          name="contenido"
+          id=""
+        />
+        <input type="button" value="Enviar" class="enviar-btn"/>
+      </div>
+    </form>
+  </body>
+</html>
